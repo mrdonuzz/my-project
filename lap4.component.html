@@ -1,0 +1,3 @@
+<ul>
+  <li *ngFor="let item of objects" [ngClass]="{'red' : item % 2 !==0, 'green' : item % 2 === 0}">{{item}}</li>
+</ul>
